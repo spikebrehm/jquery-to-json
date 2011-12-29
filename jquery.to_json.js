@@ -1,5 +1,5 @@
 (function($){
-    $.fn.toJSON = function(options){
+    $.fn.serializeObject = function(options){
         
         options = $.extend({}, options);
         
